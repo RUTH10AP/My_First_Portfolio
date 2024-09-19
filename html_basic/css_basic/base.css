@@ -1,0 +1,15 @@
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: blue;
+}
+main {
+    grid-row: 2;
+    padding: 2rem;
+    text-align: center;
+}
+p {
+    color: brown;
+    font-size: medium;
+}
