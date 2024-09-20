@@ -1,0 +1,41 @@
+body,main {
+    display: flex;
+}
+footer {
+    flex-direction: column;
+}
+aside {
+    flex-direction: row;
+}
+main {
+    flex: 2;
+}
+article {
+    flex: 1;
+}
+body,main,header,aside,article,footer {
+    flex: auto;
+}
+aside {
+    overflow-y: auto;
+}
+.works_on_smartphone {
+    font-size: 14px;
+    margin: 10px;
+}
+@media screen and (max-width:768px) {
+    .works_on_smartphone {
+
+    }
+}
+@media screen and (min-width:769px) {
+    .works_on_smartphone {
+        
+    }
+    
+}
+    
+
+
+    
+
